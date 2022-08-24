@@ -1,8 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@mui/styles';
-import { useHistory, useLocation } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import {SubjectOutlined,AddCircleOutlineOutlined} from '@mui/icons-material';
-import { Typography,
+import { 
+  Typography,
     Drawer,
     List,
     ListItem,
@@ -41,7 +42,7 @@ const Layout = ({children}) => {
 
     const classes = useStyles();
     const history = useHistory()
-    const location = useLocation()
+    
     return (
         <div className={classes.root}>
         
