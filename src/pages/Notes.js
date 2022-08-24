@@ -4,6 +4,7 @@ import NoteCard from '../component/NoteCard';
 import { Grid,Paper, Typography } from '@mui/material';
 import { Container } from '@mui/system';
 import NoteContext from '../context/NoteContext';
+import {red} from '@mui/material/colors'
 
 export default function Notes() {
 

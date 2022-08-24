@@ -49,6 +49,7 @@ const Layout = ({children}) => {
             <Drawer
                 variant='permanent'
                 anchor='left'
+                color='success'
                 className={classes.drawer}
             >
                 <div>

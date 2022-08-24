@@ -1,5 +1,5 @@
 import { createTheme,ThemeProvider } from '@mui/material/styles'
-import purple from '@mui/material/colors/purple';
+import {purple} from '@mui/material/colors';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Notes from './pages/Notes'
 import Create from './pages/Create'
